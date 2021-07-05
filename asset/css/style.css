@@ -8,13 +8,33 @@ a
 {
     text-decoration: none;
 }
+.m-b
+{
+    margin-bottom: 10px;
+}
+.d-flex
+{
+    display: flex;
+}
+.align-center
+{
+    align-items: center;
+}
+.justify-center
+{
+    justify-content: center;
+}
+.text-center
+{
+    text-align: center;
+} 
 .btn
 {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
     padding: 20px 40px;
-    background: red;
+    background-image: linear-gradient(to right, #851610 0%, #e52d27  100%);
     border-radius: 40px;
 } 
 body
@@ -28,37 +48,81 @@ body
 }
 .hero_wrapper
 {
-    display: flex;
-    align-items: center;
+    height: 100vh;
 }
-.hero_left
+.div_left
 {
-    max-width: 50%;
+    width: 50%;
 }
-.hero_tag
+.hero_tag,
+.about_tag
 {
     max-width: 70%;
     font-size: 40px;
     line-height: 50px; 
     margin-bottom: 20px;
+    color: #333333;
 }
-.hero_tag span
+.hero_tag span,
+.about_tag span
 {
     color: red;
 }
-.hero_para
+.hero_para,
+.about_para
 {
     font-size: 18px;
     font-weight: 500;
     max-width: 70%;
     line-height: 28px;
     margin-bottom: 40px;
+    color: #524444eb;
 }
-.hero_right
+.about_para,
+.about_tag
 {
-    max-width: 50%;
+    margin: 0 auto;
+
 }
-.hero_right img
+.about_tag 
+{
+    padding-bottom: 20px;
+}
+.about_para
+{
+    padding-bottom: 40px;
+}
+.div_right
+{
+    width: 50%;
+}
+.div_left img,
+.div_right img
 {
     width: 100%;
 }
+.about .div_right
+{
+    text-align: center;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
