@@ -4,9 +4,17 @@
     margin: 0;
     padding: 0;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 a
 {
     text-decoration: none;
+}
+li
+{
+    list-style: none;
 }
 .m-b
 {
@@ -14,8 +22,8 @@ a
 }
 .p-t-b
 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .d-flex
 {
@@ -63,6 +71,48 @@ body
 {
     max-width: 80%;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo
+{
+    width: 20%;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+}
+.logo span
+{
+    color: red;
+}
+.nav
+{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+.nav li
+{
+    display: inline;
+    padding-left: 15px;
+}
+.nav li a
+{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.nav li a:hover
+{
+    color:red;
+}
+.menu
+{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background: #fbf8f8;
 }
 .hero_wrapper
 {
@@ -126,7 +176,7 @@ body
 {
     width: 100%;
 }
-.about
+#about
 {
     background-image: url(../images/about_back.jpg);
     background-repeat: no-repeat;
@@ -138,15 +188,15 @@ body
 {
     padding: 130px 0;
 }
-.about .div_left img
+#about .div_left img
 {
     border-radius: 40px;
 }    
-.about .div_right
+#about .div_right
 {
     text-align: center;
 }
-.dish
+#dish
 {
     background: #f1ecec;
 }
