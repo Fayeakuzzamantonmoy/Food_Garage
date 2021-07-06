@@ -115,6 +115,18 @@ body
 {
     width: 100%;
 }
+.about
+{
+    background-image: url(../images/about_back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+.about_wrapper
+{
+    padding: 130px 0;
+}
 .about .div_left img
 {
     border-radius: 40px;
@@ -176,4 +188,5 @@ body
     line-height: 28px;
     font-weight: 300;
     padding-top: 25px;
+    text-align: center;
 }
